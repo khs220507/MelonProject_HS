@@ -125,8 +125,11 @@
 
             const swiper = new Swiper('.swiper', {
                 // Optional parameters
-                direction: 'horizontal',
+                direction: 'vertical',
                 loop: true,
+                autoplay: {
+                    delay : 100,
+                },
 
                 // If we need pagination
                 pagination: {
